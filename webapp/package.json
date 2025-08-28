@@ -1,8 +1,12 @@
 {
   "name": "webapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "api/add.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "mocha"
+  },
   "directories": {
     "test": "test"
   },
@@ -13,9 +17,5 @@
   "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
-  "license": "ISC"
+  "author": ""
 }
